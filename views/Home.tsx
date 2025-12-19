@@ -18,10 +18,10 @@ interface HomeProps {
 type SortOption = 'featured' | 'price-low' | 'price-high' | 'name-az';
 
 const HERO_IMAGES = [
-  "https://picsum.photos/seed/phone1/600/800",
-  "https://picsum.photos/seed/phone2/600/800",
-  "https://picsum.photos/seed/phone3/600/800",
-  "https://picsum.photos/seed/phone4/600/800"
+  "https://www.triveniworld.com/cdn/shop/articles/top-mobile-phones-of-2025-guides-and-reviews-triveni-world.webp?v=1736040418",
+  "https://i.pinimg.com/originals/eb/fa/34/ebfa349e1b3dd745cf1c16b5deeb4bd6.gif",
+  "https://static.vecteezy.com/system/resources/previews/020/737/706/non_2x/web-banner-or-horizontal-template-design-with-special-offer-on-mobile-phones-for-advertising-concept-vector.jpg",
+  "https://img.freepik.com/free-vector/super-sale-phone-banner-mobile-clearance-sale-discount-poster-smartphone-sale-marketing-special-offer-promotion_433751-53.jpg"
 ];
 
 const Home: React.FC<HomeProps> = ({ products, user, visitorCount, onAddToCart, onAddReview, flashSaleEnd }) => {
