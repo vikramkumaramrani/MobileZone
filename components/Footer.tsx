@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3">
               <img src="https://png.pngtree.com/element_our/sm/20180501/sm_5ae81ccf28c77.jpg" alt="Logo" className="h-10 w-auto" />
-              <span className="font-bold text-xl tracking-tight text-white">LajuMobile Hub</span>
+              <span className="font-bold text-xl tracking-tight text-white">Devrajani Mobile Zone</span>
             </Link>
             <p className="text-sm leading-relaxed text-slate-400">
               Pakistan's most trusted destination for genuine mobile phones and premium accessories. Providing quality tech since 2020 with nationwide fast delivery.
@@ -59,19 +59,19 @@ const Footer: React.FC = () => {
                 <span className="text-indigo-500 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                 </span>
-                <span>Karachi, Pakistan</span>
+                <span>Police Check Post Chelhar Man Road Mithi Umerkot Bypass, 69221</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-indigo-500">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 </span>
-                <span>+92 341 0039529</span>
+                <span>+92 </span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-indigo-500">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                 </span>
-                <span>support@lajumobilehub.pk</span>
+                <span>support@Devrajani Mobile Zonehub.pk</span>
               </li>
             </ul>
           </div>
@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-xs text-slate-500">
-            © 2024 LajuMobile Hub. All rights reserved. Designed for the tech community in Pakistan.
+            © 2026 Devrajani Mobile Zone. All rights reserved. Designed for the tech community in Pakistan.
           </div>
           <div className="flex items-center gap-4 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" className="h-4" />

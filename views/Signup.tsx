@@ -61,7 +61,7 @@ const Signup: React.FC<SignupProps> = ({ onLogin }) => {
               value={formData.name}
               onChange={(e) => setFormData({...formData, name: e.target.value})}
               className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
-              placeholder="John Doe"
+              placeholder="Full Name"
             />
           </div>
           <div>

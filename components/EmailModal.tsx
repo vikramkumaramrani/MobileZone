@@ -17,7 +17,7 @@ const EmailModal: React.FC<EmailModalProps> = ({ order, user, onClose }) => {
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-indigo-600 rounded flex items-center justify-center text-white font-bold text-xs">P</div>
             <div>
-              <p className="text-xs font-bold text-slate-800">LajuMobile Hub Support</p>
+              <p className="text-xs font-bold text-slate-800">Devrajani Mobile Zone  Support</p>
               <p className="text-[10px] text-slate-500">To: {user.email}</p>
             </div>
           </div>
@@ -76,7 +76,7 @@ const EmailModal: React.FC<EmailModalProps> = ({ order, user, onClose }) => {
           </div>
 
           <div className="pt-8 border-t text-center text-[11px] text-slate-400">
-            <p>© 2024 LajuMobile Hub. All rights reserved.</p>
+            <p>© 2026 Devrajani Mobile Zone. All rights reserved.</p>
             <p className="mt-1">If you have any questions, reply to this email or visit our help center.</p>
           </div>
         </div>

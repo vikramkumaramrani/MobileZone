@@ -4,8 +4,8 @@ import { Product, User } from './types';
 
 export const INITIAL_USER: User = {
   id: 'admin-1',
-  email: 'laju42@gmail.com',
-  name: 'Laju Admin',
+  email: 'sagar@gmail.com',
+  name: 'sagar Admin',
   role: 'admin'
 };
 

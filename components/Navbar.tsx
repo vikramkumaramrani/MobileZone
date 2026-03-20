@@ -19,7 +19,7 @@ const Navbar: React.FC<NavbarProps> = ({ user, cartCount, onLogout }) => {
         <Link to="/" className="flex items-center gap-3 group">
           <img 
             src="./logo.png" 
-            alt="LajuMobile Hub" 
+            alt="Devrajani Mobile Zone" 
             className="h-10 w-auto transition-transform duration-300 group-hover:scale-110"
             onError={(e) => {
               // Fallback if logo.png is missing
@@ -27,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ user, cartCount, onLogout }) => {
             }}
           />
           <span className="font-black text-xl tracking-tighter hidden sm:block bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
-            LajuMobile Hub
+            Devrajani Mobile Zone
           </span>
         </Link>
 

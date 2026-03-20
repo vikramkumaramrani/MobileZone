@@ -9,8 +9,8 @@ interface LoginProps {
 }
 
 const Login: React.FC<LoginProps> = ({ onLogin }) => {
-  const [email, setEmail] = useState('laju42@gmail.com');
-  const [password, setPassword] = useState('laju56');
+  const [email, setEmail] = useState('sagar@gmail.com');
+  const [password, setPassword] = useState('sagar');
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
@@ -19,7 +19,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
     setError('');
 
     // Demo authentication
-    if (email === 'laju42@gmail.com' && password === 'laju56') {
+    if (email === 'sagar@gmail.com' && password === 'sagar') {
       onLogin(INITIAL_USER);
       navigate('/');
     } else {
@@ -83,8 +83,8 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
         
         <div className="mt-6 p-4 bg-indigo-50 rounded-xl text-xs text-indigo-700">
           <p className="font-bold mb-1">Demo Credentials:</p>
-          <p>Email: laju42@gmail.com</p>
-          <p>Password: laju56</p>
+          <p>Email: sagar@gmail.com</p>
+          <p>Password: sagar</p>
         </div>
       </div>
     </div>
